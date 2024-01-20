@@ -9,14 +9,14 @@ const Navbar = () => {
         <Image src={Icon} width={120} height={55} alt="logo" />
       </div>
 
-      {/* Center Links */}
+     
       <div className="navbar-links">
         <a href="#link1"> Swape </a>
         <a href="#link2"> Pool </a>
         <a href="#link3"> Vote </a>
       </div>
 
-      {/* Right Buttons */}
+      
       <div className="navbar-buttons">
         <button className="btn btn-grey">0 SAP</button>
         <button className="btn btn-black">Connect to Wallet</button>
