@@ -17,13 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
 }
 
 @layer utilities {
@@ -31,3 +25,47 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+.navbar-icon{
+  padding-left: 20px;
+}
+.navbar-links a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+}
+.navbar-links a:hover,
+.navbar-links a:active {
+  border-bottom: 2px solid black;
+}
+.navbar-buttons .btn {
+  padding: 8px 15px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+.btn-black {
+  background-color: black;
+  color: rgb(245, 236, 112);
+  margin-right: 100px;
+}
+.btn-grey {
+  background-color: rgba(181, 207, 228, 0.637);
+}
+
+/* Responsive Design */
